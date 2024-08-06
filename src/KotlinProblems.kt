@@ -22,18 +22,18 @@ fun main() {
     //Project two
 
         val steps = 4000
-        val caloriesBurned = pedometerStepsToCalories(steps);
+        val caloriesBurned = pedometerStepsToCalories(steps)
         println("Walking $steps steps burns $caloriesBurned calories")
 
     //Project three
-    val time = timeSpentOnPhoneTodayVSYesterday(300, 250);
+    val time = timeSpentOnPhoneTodayVSYesterday(300, 250)
     println(time)
 
     //Project Four
-    val indyWeather = cityWeatherInfo("Indianapolis",19, 34, 10 );
+    val indyWeather = cityWeatherInfo("Indianapolis",16, 34, 10 )
 }
 fun cityWeatherInfo(cityName: String, lowTemp: Int, highTemp: Int, rainChance: Int){
-    println("City: $cityName");
+    println("City: $cityName")
     println("Low Temperature: $lowTemp, High Temperature: $highTemp")
     println("Chance of rain: $rainChance%")
 }
